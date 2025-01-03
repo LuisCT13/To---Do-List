@@ -1,6 +1,6 @@
 body{
     background-color: lavender;
-    font-family: sans-serif;
+    font-family: 'Roboto',sans-serif;
 }
 #mainContainer{
     width: 500px;
@@ -16,14 +16,15 @@ body{
     /* box-shadow: desplazamiento-horizontal desplazamiento-vertical desenfoque difuminación color;*/
 } 
 footer{
-    position:absolute;
+    position:fixed;
     bottom: 0%;
     width: 100vw;
     height: 50px;
     align-items: center;
     text-align: center;
     background-color: burlywood;
-    padding-top:20 ;
+    padding-top:20;
+    opacity: 50%;
 }
 #asideLeft{
     width: 4vw;
@@ -39,10 +40,13 @@ li{
     border-radius: 20px ;
     border: 5px solid lightskyblue;
     margin: 0 auto;
-   padding: 10px;
+    padding: 10px;
     margin-top: 30px;
     color: beige;
     font-size: xx-large;
+}
+ul{
+    margin-bottom: 50px;
 }
 .btnEliminar{
     background-color: red;
@@ -54,3 +58,22 @@ li{
     margin: 10px;
     border-radius: 50px;
 }
+#inputNewTask{
+    border: none;
+    box-shadow: none;
+    height: 28px;
+    padding: 15px;
+    width: 350px;
+    font-size: x-large;
+
+}
+#btnAdd{
+    background-color: rgb(116, 200, 32);
+    border: 1px solid white;
+    color:aliceblue;
+    height: 50px;
+    padding: 5px 15px;
+    border-radius: 50px;
+    margin-left: 10px;
+}
+
