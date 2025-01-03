@@ -30,6 +30,27 @@ footer{
     height: 100vh;
     background-color: floralwhite;
 }
+
 li{
-    margin : 10px 0;
+    list-style-type: none;
+    background-color: rgb(188, 56, 193);
+    height: 50px;
+    width: 500px;
+    border-radius: 20px ;
+    border: 5px solid lightskyblue;
+    margin: 0 auto;
+   padding: 10px;
+    margin-top: 30px;
+    color: beige;
+    font-size: xx-large;
+}
+.btnEliminar{
+    background-color: red;
+    color: white;
+    border: 2px solid white;
+    padding: 5px 10px;
+    cursor: pointer;
+    float: right; 
+    margin: 10px;
+    border-radius: 50px;
 }

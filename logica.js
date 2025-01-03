@@ -15,7 +15,7 @@ function addTask(tarea){
     const btnEliminar = document.createElement('button');
     btnEliminar.textContent = "X";
     btnEliminar.onclick =()=> newItem.remove();
-
+    btnEliminar.className = "btnEliminar"; 
     //asociar los elementos , tanto el listItem
     //como el boton.
     newItem.appendChild(btnEliminar);
